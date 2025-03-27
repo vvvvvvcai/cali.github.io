@@ -1,0 +1,142 @@
+body{
+    background: url(../images/butterfly.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0; 
+    background-attachment: fixed;
+    
+}
+
+/* .header{
+    border: 1px solid black;
+} */
+
+.header .logo{
+    float: left;
+    margin-top: 2px;
+    margin-left: 120px;
+}
+.header .logo img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-right: 200px;;
+    margin-left: 400px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+.header .nav li{ 
+    /* border: 1px solid black; */
+     height:50px;list-style: none;
+}
+
+.header .nav li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .nav li a em{
+    font-style: normal;
+    text-align: center;
+     display:block; height:25px; line-height:22px;
+}
+
+.header .nav li  a:visited {
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 20pt;
+}
+
+.header .nav li a:hover{
+    color: lightblue;
+    font-size: 16pt;
+}
+
+.mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid .left{
+    width: 200px;
+    height: 900px;
+    /* border: 1px solid white; */
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px; */
+}
+
+.mid .left .left_nav{
+    color:white;
+    /* border: 1px solid white; */
+    margin-top: 66px;
+   
+}
+
+.mid .left .left_nav div{
+    width: 120px;
+    height: 40px;
+    text-indent: 38px;
+    text-align: center;
+    /* border: 1px solid white; */
+    background: url(../images/earth.png) no-repeat left;
+   
+}
+
+.mid .left .left_nav div a{
+    display: block;
+    margin-top: 16px; 
+    padding-top: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.mid .left .left_nav div:hover {
+    background: url(../images/starball.png) no-repeat left;
+    color: #fff;
+   
+}
+.mid .left .left_nav a:hover{
+     color: #fff;
+     
+}
+
+.mid .right{
+    width: 1200px;
+    height: 850px;
+    /* border: 1px solid white; */
+    margin-right: 140px;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: auto;
+}
+.mid .right::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    color: #fff;
+}
+
+.mid .right h1{
+    margin-top: 160px;
+    margin-left: 350px;
+}

@@ -1,0 +1,69 @@
+body{
+    background: url(../images/butterfly.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#outer{
+   
+    height: 550px;
+    width: 500px;
+    background-color: rgba(255, 255, 255,0.3);
+    border-radius: 2%;
+    
+}
+
+#in{
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    height: 150px;
+    width: 150px;
+}
+#in_in{
+      margin: 90px auto;
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 150px;
+    font-size: 24pt;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#in_in a{
+     color: rgba(255, 255, 255, 0.8);
+     text-decoration: none;
+}
+
+#in_in a:hover{
+    color: #fff;
+}
+
+#in2{
+    margin: 80px auto;
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 90px;
+}
+
+img{
+   
+    border-radius: 50%;
+}
+
+
+#in2 a{
+    text-decoration: none;
+    font-size: 20pt;
+    color: rgba(255, 255, 255, 0.8);
+    /* margin-left: 220px; */
+    
+}
+
+#in2 a:hover{
+    font-size: 22pt;
+    color: rgba(255, 255, 255, 1);
+}
